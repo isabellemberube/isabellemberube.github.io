@@ -1,0 +1,22 @@
+/* NOTE- 
+
+Step 1: Getting started
+Create your file/folder structure. Then, begin your HTML file with your HTML boilerplate, making sure Bootstrap is included.
+Copy in the text file from Drive into the <body>section of your file.
+Download the images in the Drive file and save them in your imgfolder.
+
+Step 2: Building your landing page
+Your page must include:
+Descriptive <title> tag and meta description
+Semantic markup (<header>, <main>, <footer>, <section>)
+At least one Google Font
+At least 2 gridded sections (.row + .col-*) as well as using a .container or .container-fluid
+Responsive breakpoints (use classes likecol-md-6 col-lg-4)
+Responsive images (use .img-fluid class on all images)
+Possible use of .align-items-* and .justify-content-* utility classes
+
+Step 3: Responsive testing
+Check your design across multiple breakpoints/screen sizes
+Test in Chrome DevTools at mobile (375px), tablet (768px), and desktop (1024px+) sizes
+Ensure content stacks properly on mobile and spreads out on larger screens*/
+
