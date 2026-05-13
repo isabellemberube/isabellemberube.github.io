@@ -18,5 +18,82 @@ Possible use of .align-items-* and .justify-content-* utility classes
 Step 3: Responsive testing
 Check your design across multiple breakpoints/screen sizes
 Test in Chrome DevTools at mobile (375px), tablet (768px), and desktop (1024px+) sizes
-Ensure content stacks properly on mobile and spreads out on larger screens*/
+Ensure content stacks properly on mobile and spreads out on larger screens
 
+Black 02111B (header, visit box background)
+Cream E0DDCF (“visit us” box)
+White FCFCFC (nav links)
+
+*/
+
+/* ===== HEADER ELEMENTS ===== */
+header,
+nav{
+    background-color: #02111B;
+    color: #FCFCFC;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+img{
+    padding: 20px;
+    margin: auto;
+
+}
+
+/* ===== MAIN CONTENT ===== */
+body{
+    font-family:"DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h1{ font-family:"Newsreader", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+h2{ font-family:"Newsreader", serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 25px;
+
+}
+
+h3{ font-family:"Newsreader", serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.address {
+    background-color: #02111B;
+    color: #E0DDCF;
+    text-align: center;
+    padding: 20px;
+    font-size: smaller;
+}
+
+.headlines{
+    padding: 40px 40px;
+    margin: auto;
+    text-align: left;
+}
+
+.breaking-news{
+    text-align: center;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.breaking-news-t{
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+}
